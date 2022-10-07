@@ -57,4 +57,30 @@ h2{
     justify-content: center;
 }
 
+.pictures {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
 
+}
+
+img {
+    border: 10px solid #e6e6e6;
+    width: 725px;
+    height: 525px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h3 {
+    float: left;
+    font-family: 'Abel', sans-serif;
+}
+li {
+    display: inline-block;
+    float: right;
+}
+.description {
+    margin: 0 37px;
+}
