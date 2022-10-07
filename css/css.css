@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     background-color: #f0f0f0;
 }
@@ -8,12 +11,50 @@ body{
 .container-fluid {
     background-color: #f0f0f0;
 }
-.container {
-    background-color: black;
+.title-section {
+    margin: 75px 30px 30px 30px;
 }
 h1{
     font-family: 'Anton', sans-serif;
-    font-size: 100px;
-    background-color: red;
+    font-size: 120px;
+    margin: 0;
+
 }
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 75px;
+    margin: 65px 50px 65px 50px;
+
+}
+.container{
+    height: 100%;
+
+}
+.col{
+    width: 204px;
+    padding: 0;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    border: black solid 2px;
+}
+.row{
+    /*height: 100%;*/
+    /*width: 100%;*/
+    margin: 100px;
+
+}
+.circle{
+    border: 16px solid white;
+    border-radius: 100%;
+    color: white;
+    height: 200px;
+    width: 200px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
