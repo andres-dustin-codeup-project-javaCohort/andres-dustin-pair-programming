@@ -96,3 +96,22 @@ li {
 
 }
 
+/*@include media-breakpoint-up (sm) {*/
+/*        hr {*/
+/*            display: none;*/
+/*        }*/
+/*}*/
+@media screen and (min-width: 576px) {
+    hr {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: red;
+    }
+
+}
+
