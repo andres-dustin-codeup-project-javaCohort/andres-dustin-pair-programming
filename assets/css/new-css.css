@@ -29,7 +29,7 @@ h3 {
     align-items: center;
     justify-content: center;
     float: left;
-    /*margin: 25px;*/
+
 }
 .picture {
     max-width: 100%;
@@ -79,9 +79,11 @@ li {
        margin-bottom: 15%;
    }
    .thumbnail-title{
-       margin-top: 15%;
+       margin-top: 35px;
+       margin-bottom: 35px;
    }
 }
+/*extra large screens*/
 @media only screen and (min-width:1440px){
     .img-size{
        width: 464px;
